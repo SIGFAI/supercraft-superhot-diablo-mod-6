@@ -1,0 +1,280 @@
+{
+  "id": "sigf/supercraft-superhot-diablo-mod-6",
+  "version": "1.0.0",
+  "name": "SUPERCRAFT, mod 6: SUPERHOT × Diablo",
+  "tagline": "SUPERHOT, mixed with a new game every time. Time only moves when you move, and each mod adds a funny twist the AI comes up with. This time, mix in Diablo with a funny twist of your own.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "superhot",
+      "role": "host",
+      "engine": "SUPERHOT (itch build, Unity 2020.3.24f1 Mono, 64-bit, game exe SH.exe) + BepInEx 5.4.23.2 x64 C# plugin (net472)"
+    },
+    {
+      "game": "diablo",
+      "role": "guest",
+      "label": "Diablo",
+      "canonical": false
+    }
+  ],
+  "requires": [
+    {
+      "id": "bepinex"
+    }
+  ],
+  "install": [
+    {
+      "game": "superhot",
+      "strategy": "profile",
+      "files": [
+        {
+          "src": "supercraft-superhot-diablo-mod-6.zip",
+          "dst": "{game}",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/beam.png",
+              "sha256": "f9066a9188801ac5a0177cc03d217f5edd076a16dd9062fae538f8bc85ec7a9f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/ember.png",
+              "sha256": "c6641f8a249f8a80b94808f626bf0858a1dc2ad0add1e710464221572dce9d42"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flame_0.png",
+              "sha256": "891f7a861c847633558eae15db9e292d831b10ef6ebd958f56ac6def6361d7f3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flame_1.png",
+              "sha256": "b9950d5ca540a46fdc708cb09bbac1659fbad8de70b8fd18d697d8becda86483"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flame_2.png",
+              "sha256": "039bdecdca2b35c49a39115274068fa24f3053339b0afa7ab938f502606c7e50"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/flame_3.png",
+              "sha256": "04282f3deec96b1f944d12d158c3e8e5c5b1456a63bce0e2699d52fae73b6f3d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/glow.png",
+              "sha256": "2b46f8303289bad7888580cd74b9426ac249afbcb3b9fac239322734b1e5101b"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/ring.png",
+              "sha256": "a86b0bc17793b5b6c70995dbebdbb631d645f49cc7206c2962eda4b406fca9f7"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/runes.png",
+              "sha256": "a635b594f24035a22e1bc455a43551df569e77a3dddccdc91bebbc89fb31e9df"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/smoke.png",
+              "sha256": "4d9a8fa532567f97ab4d54413ac0d117ec807755d4be22d6f16e0cc12b98dbfc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/fx/spark.png",
+              "sha256": "d51dd2f8d93a9ee1d5b9419fe838a6195f16a7a1c3d8f8ab1eaac05fa444b142"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/axe.png",
+              "sha256": "dee763258da226a65c188dfe7a466fc642be26c5facd5bf3b04faebe35c203b0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/boots.png",
+              "sha256": "a0adbdf36bdabdecdd1cbda55cc58ba38baaeb61412fdbcf6fff0876dbd156d5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/bosshorns.png",
+              "sha256": "1d8fde531ad2d1db1bff64f17f540195fa9e7367f404af70294ffa4f02acb06d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/chest.png",
+              "sha256": "2e8f7eeffd762211c8ae9650ad83b7d65fd379a19e4a6b3626cf45a46e2573e8"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/hellgate.png",
+              "sha256": "f6eaaa98468503e92f40a43e87467d8d4d4a7d54951a2f608a206139f3d12697"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/helm.png",
+              "sha256": "d6e195546454b2bb12beeaebaf33c75af691597f0287e67b739b98af4af655f9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/horns.png",
+              "sha256": "bcc8e39f2b6ea0507d104b16013b743ffb80da71fb2c86311016cebeb0787e27"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/potion.png",
+              "sha256": "afabfe322d573cf8c79576936f580b982844689de7881394096d664f8eeb0af4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/sage.png",
+              "sha256": "4c1ce9a26654f57fbcb475a73a6fd49010d68609a99fd16eae81a69f42097bb9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/shield.png",
+              "sha256": "1fe0c7e668f7a6639cbbc0f535711885621558814b77b11d2419e31adbe0d23d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/models/sword.png",
+              "sha256": "f80060060c0a9bcf56f7c4148de89d6f0cfb8df82f9ee4b941ec82f56723bfa5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/boss_roar.wav",
+              "sha256": "ea15237adf3a7eea9c2577f26b88ad143c96950d98323b4d95078a857a816e6a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/coin_drop1.wav",
+              "sha256": "9bfebd9971a23b79276d6c045dec5ab7424b12bba9369a118e720f7bd37ef9ae"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/coin_drop2.wav",
+              "sha256": "421a50506381e03e1531b280438c36794a86adec08b3c122b20eb480e60dda9a"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/coin_drop3.wav",
+              "sha256": "0598f50dda835c2f960c192f2b54d160d9d23a77d0b78cd9612cc72513bba3cc"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/coin_pickup.wav",
+              "sha256": "28c8971fd083f12c644346db93c8e6e7db0b8112cd585a80ba7d18003add8afb"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/demon_growl1.wav",
+              "sha256": "39f138aca9c4792058c986ff6c02f9fd62a71f8410c3c52316c25fce852743b9"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/demon_growl2.wav",
+              "sha256": "17847adaee1f0593d398138108ee0584248e63a2fe1e531beb2e2658cddcdca4"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/demon_hit.wav",
+              "sha256": "d05c2c54eb616caabc0471d16ae4d8fe519949ac0413ff381da80765b140747e"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/fire_loop.wav",
+              "sha256": "39777cdb52a2e011a25d6fd51b1c2639530f09db60ef879f076acec56a83e211"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/fireball_cast.wav",
+              "sha256": "1cadb0376186aeaa9dff83872d1fa19b25021f60831e618f6e81cd803c3dd221"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/fireball_explode.wav",
+              "sha256": "3f8b54f420d1c303f7aa14ff8c9b664f4fe858427c933444f15fcf00be75ecc2"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/globe_pickup.wav",
+              "sha256": "b5230b53dc9c46118169ea0b1986843a8c6e8d448353a15dbface71942183baa"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/item_drop.wav",
+              "sha256": "a5ac5b1f2293e4cd99979dc657652cc2c8ce546322516d41bba825c9c5615a4c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/legendary_drop.wav",
+              "sha256": "613955d564b2c5973193fee12e64701a5087a9e4453b434d28e4da68a0f044e1"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/level_up.wav",
+              "sha256": "b458260df31438dfb4b7999e2174a30c643a116be2fd466c32225a99f12e63d0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/music_loop.wav",
+              "sha256": "97acc57f33592895aa412aa9f8f331612b2f663ef9e3a354853b90ed2674d035"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/portal_open.wav",
+              "sha256": "612dbc7c1435d0c46f486ffcd997bd87f517c8dbcb2cc62453d485f159273b8f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/quest_complete.wav",
+              "sha256": "e9e03eb5b69ed37111236dec34499df7c9f0140aae37cc0596113e18ec0a2b40"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/sage_boss.wav",
+              "sha256": "bcf880821efc30dc23af6c706971503642212bdecdba71ecf2ed3433a2dc2d0c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/sage_legendary.wav",
+              "sha256": "6c30e7d9f9beda3388a5948a8df1ec6029c5e48427da9d572d230e6bf59929a0"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/sage_listen.wav",
+              "sha256": "a6fc839fb502ded2bb122a3630629fbabe45405a426775a5d1ad7e2982ba58d3"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/sfx/sage_still.wav",
+              "sha256": "c528fd84e031c46cf3fe24552630a8af44c2afa377ed22a6006fabfdffd9c92f"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/font.png",
+              "sha256": "52702200c059f951c36a188e16467658c9b5c8c7428c6dcb60e79418d3f4a33d"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/globe_blue.png",
+              "sha256": "5a75f04f7e0d24423d3269a46f9ce50ce3a22c457ca7bb04d75d18f9101bab08"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/globe_frame.png",
+              "sha256": "be0472ace1b93b027dbf7fb110180a2179be5aac9a923785e6bc6ee649708b12"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/globe_red.png",
+              "sha256": "fa7b5472e38dbebf93c4f78d2b577e5ba20b17072e7310601966ad8b4cd5f460"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/gold_icon.png",
+              "sha256": "834e142c3c08f010b4985a7b9bfd7e9dd0001eecae92b760f25fd2a9dfc4f1f5"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/assets/ui/panel.png",
+              "sha256": "3a4293407cd36d133d00c401b1af0e342123efdec47f921d48ba853320331820"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.dll",
+              "sha256": "6ca978d554f05c523d1feddb0cf4676f77424ed4542c7152cedfc90709bdb87c"
+            },
+            {
+              "path": "BepInEx/plugins/SigfMix/SigfMix.pdb",
+              "sha256": "b76a948901a8bd3f7a9d79b3fc3a725b9e7be36ee6c89855414b6c86236c4005"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/supercraft-superhot-diablo-mod-6/releases/download/v1.0.0/supercraft-superhot-diablo-mod-6.zip",
+          "sha256": "f6904089d6b5860abacd6028d5a56b49003d89539e3280bf2e6f005f656a8c1a",
+          "size": 14857657
+        }
+      ],
+      "loader": "bepinex"
+    }
+  ],
+  "launch": [
+    {
+      "game": "superhot",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "supercraft-superhot-diablo-mod-6.zip",
+      "url": "https://github.com/SIGFAI/supercraft-superhot-diablo-mod-6/releases/download/v1.0.0/supercraft-superhot-diablo-mod-6.zip",
+      "sha256": "f6904089d6b5860abacd6028d5a56b49003d89539e3280bf2e6f005f656a8c1a",
+      "size": 14857657
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/supercraft-superhot-diablo-mod-6",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SUPERCRAFT"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "superhot",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:27:07.816Z"
+}
